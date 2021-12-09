@@ -1,0 +1,18 @@
+
+body {
+    background-color: #004c4c;
+    color: 	#b2d8d8;
+}
+
+.to-do-list {
+    margin: 10px 50px 5px 10px;
+}
+
+h1 {
+    margin: 20px 10px 10px 10px;
+    font-family: 'Architects Daughter', cursive;
+}
+
+ul {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Watch and Code To Do List</title>
+    <link rel = "stylesheet" href = "style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&display=swap" rel="stylesheet">
+  </head>
+  
+  <body>
+    <h1>My To Dos:</h1>
+    
+    <section class="to-do-list">
+    <div>
+      <button onclick = "handlers.addToDos()">Add</button>
+      <input id = "addToDosTextInput" type = "text">
+    </div>
+    
+    <div>
+      <button onclick = "handlers.editToDos()">Edit</button>
+      <input id = "editToDosPositionInput" type = "number">
+      <input id = "editToDosTextInput" type = "text">
+    </div>
+    
+    <div>
+      <button onclick = "handlers.toggleComplete()">Toggle Complete</button>
+      <input id = "toggleCompletePositionInput" type = "number">
+    </div>
+    
+    <div>
+      <button onclick = "handlers.toggleAll()">Toggle All</button>
+    </div>
+    </section>
+    
+    <ul>
+    </ul>
+   
+    <script src = "script.js"></script> 
+  </body>
+</html>
+
+
+
